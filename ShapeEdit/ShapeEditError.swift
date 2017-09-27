@@ -7,10 +7,10 @@
 */
 
 /// These represent the possible errors thrown in our project.
-enum ShapeEditError: ErrorType {
-    case ThumbnailLoadFailed
-    case BookmarkResolveFailed
-    case NoShape
-    case PlistReadFailed
-    case SignedOutOfiCloud
+enum ShapeEditError: Error {
+    case thumbnailLoadFailed
+    case bookmarkResolveFailed
+    case noShape
+    case plistReadFailed
+    case signedOutOfiCloud
 }
